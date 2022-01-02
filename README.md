@@ -9,5 +9,6 @@ You won’t have a lot of instruction, you are free to implement it the way that
   
 
 Here the final result:
-
+<p>
 <img src="60df485eb772ecbad54a.jpg"/>
+</p>
