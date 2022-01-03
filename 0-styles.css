@@ -24,7 +24,6 @@
         --nav-link-padding: 0rem 1.3rem;
 
     /** BUTTON **/    
-        --button-hover-color: #ca5155;
         --button-font-size: 11px;
         --button-border-radius: 30px;
         --button-padding: 16px 23px;
@@ -50,6 +49,7 @@
         font-family: Arial, Helvetica, sans-serif;
         line-height: 1.5;
   }
+    
     @media (max-width: 480px) {
         html {
             font-size: 57%;
@@ -106,13 +106,16 @@
 }
 
     .button:hover {
-        background-color: var(--button-hover-color);
+        opacity: 0.9;
  }
+    .button:active {
+        opacity: 0.9;
+    }
     .click {
         margin-top: 3em;
         margin-bottom: 70px;
  }
- @media screen and (min-width: 481px) and (max-width: 767px) {
+ @media screen and (min-width: 480px) and (max-width: 767px) {
     .nav .nav-link {
         font-size: 60%;
     }
@@ -275,7 +278,7 @@
         top: -.7rem;
     }
  }
- @media screen and (min-width: 481px) and (max-width: 767px) {
+ @media screen and (min-width: 480px) and (max-width: 767px) {
     .nav .nav-link {
         font-size: 60%;
 }
